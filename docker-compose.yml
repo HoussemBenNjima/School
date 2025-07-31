@@ -23,7 +23,7 @@ services:
       SPRING_APPLICATION_JSON: '{
         "spring.datasource.url"  : "jdbc:mysql://mysqldb:3307/school_db?createDatabaseIfNotExist=true",
         "spring.datasource.username" : "root",
-        "spring.datasource.password" : "root",
+        "spring.datasource.password" : "root"
       }'
     stdin_open: true
     tty: true
