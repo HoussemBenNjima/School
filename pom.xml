@@ -73,13 +73,16 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>  <!--  test pull request -->
+	<!--  first modification -->
+	<!--  second modification -->
+	<!--Deployto Nexus -->
 	<distributionManagement>
-		<repository>
-			<id>deploymentRepo</id>
-			<name>Nexus Repository</name>
-			<url>http://localhost:8081/repository/maven-releases/</url>
-		</repository>
+	   <repository>
+	        <id>deploymentRepo</id>
+	        <name>Nexus Repository</name>
+	        <url>http://localhost:8081/repository/maven-releases/</url>
+	   </repository>
+	   
 	</distributionManagement>
-
 </project>
